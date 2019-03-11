@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=10; IE=11; IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="CJ Summers">
+
+  <title>CJ Summers | Friend Finder</title>
+
+  <link rel="shortcut icon" href="assets/images/laptop2.png" type="image/x-icon"/><!-- Favicon -->
+  <link rel="icon" href="assets/images/laptop2.png" type="image/x-icon"/><!-- Favicon -->
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css"/><!-- reset for browsers -->
+  <link rel="stylesheet" href="css/font-awesome.min.css"/><!-- mobile stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css"/><!-- index custom stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/project-styles.css"/><!-- project custom stylesheet -->
+  <link rel="stylesheet" href="css/animations.min.css"/><!-- animations stylesheet -->
+
+  <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 1024px)" href="css/project_media_small.css"/><!-- project mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 1024px) and (orientation: landscape)" href="css/project_media_small_landscape.css"/><!-- project mobile stylesheet -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <span class="hamburger__name">menu</span>
+      <svg width="35px" height="35px" class="nav__hamburger">
+        <path d="M 5 5 L 33 5" class="hamburger"></path>
+        <path d="M 5 15 L 33 15" class="hamburger"></path>
+        <path d="M 5 25 L 33 25" class="hamburger"></path>
+      </svg>
+    </nav>
+    <div class="nav-menu">
+      <div class="nav-menu__cross">
+        <svg width="43px" height="35px">
+          <path d="M 5 5 L 30 29" class="nav-menu__cross-line"></path>
+          <path d="M 5 29 L 30 5" class="nav-menu__cross-line"></path>
+        </svg>
+      </div>
+      <ul class="nav-menu__list">
+        <li class="nav-menu__list-item">
+          <a href="index.html" class="nav-menu__link">Home</a>
+        </li>
+        <li class="nav-menu__list-item">
+          <a href="index.html#about" class="nav-menu__link">About</a>
+        </li>
+        <li class="nav-menu__list-item">
+          <a href="index.html#portfolio" class="nav-menu__link">Portfolio</a>
+        </li>
+        <li class="nav-menu__list-item">
+          <a href="index.html#contact" class="nav-menu__link">Contact</a>
+        </li>
+      </ul>
+      <hr class="nav-menu__separator">
+      <p class="nav-menu__text">CJ Summers is a front-end developer and designer based in Clermont, Florida.</p>
+      <p class="nav-menu__email">
+        <a href="mailto:cjsummers003@hotmail.com" class="nav-menu__link--email">cjsummers003@hotmail.com</a>
+      </p>
+      <div class="nav-menu__social-btn">
+        <a href="https://github.com/cjsummers003" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+        <a href="https://www.linkedin.com/in/cjsummers003" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a>
+      </div>
+    </div>
+  <div class="project__container">
+
+    <!-- Header -->
+    <header class="project__header">
+      <h2 class="project__title project__title--white">Friend Finder</h2>
+      <h3 class="project__description">Connect you with a friend that is compatible with you, based on your answers to the survey.</h3>
+      <img  src="assets/images/friendFinder.PNG"
+            srcset="assets/images/friendFinder.PNG 800w,
+            assets/images/friendFinder.PNG 1100w,
+            assets/images/friendFinder.PNG 1400w"
+            sizes="(max-width: 320px) 90vw,
+                   (max-width: 640px) 100vw, 60vw"
+            class="project__header__img"
+            alt="header image"/>
+      <div class="project__buttons-container">
+        <a href="https://young-dusk-91673.herokuapp.com/" target="_blank" class="project__header__btn">Live Demo</a>
+        <a href="https://github.com/cjsummers003/FreindFinder" target="_blank" class="project__header__btn">GitHub</a>
+      </div>
+    </header>
+    <!-- Main -->
+    <main class="project__main-container">
+      <div class="project__flex">
+        <!-- Project Description -->
+        <div class="project__flex__item">
+          <h2 class="project__flex__title">Project description</h2>
+          <p class="project__flex__text">This app will connect you with a friend that is compatible with you, based on your answers to the survey.</p>
+          <p class="project__flex__text">When the page loads it will asks the user if they would like to take a survery. </p>
+          <p class="project__flex__text">If the user chooses to take the survey they will be directed to answer 10 questions.
+             This will determine how compatible they are with other users. There Name, Photo Link and answers will be added to the API friends list. 
+             This will give the app the ability to widen the search for the most compatible firend for the user. </p>
+        </div>
+        <div class="project__flex__item">
+          <h2 class="project__flex__title">Role</h2>
+          <p class="project__flex__text">Design and development of the app.</p>
+          <h2 class="project__flex__title">Challenge:</h2>
+          <p class="project__flex__text">Working with NodeJS and NPM Packages.</p>
+          <h2 class="project__flex__title">Skills</h2>
+          <p class="project__flex__text">
+            <span class="project__flex__skill">Design</span>
+            <span class="project__flex__skill">Web development</span>
+            <span class="project__flex__skill">Responsive</span>
+            <span class="project__flex__skill project__flex__skill--pink">HTML</span>
+            <span class="project__flex__skill project__flex__skill--pink">JavaScript</span>
+            <span class="project__flex__skill project__flex__skill--pink">JQuery</span>
+            <span class="project__flex__skill project__flex__skill--pink">NodeJS</span>
+            <span class="project__flex__skill project__flex__skill--pink">NPM Packages</span>
+            <span class="project__flex__skill project__flex__skill--pink">Bootstrap</span>
+          </p>
+        </div>
+      </div>
+      <a href="wanted.html" class="project__main__btn project__main__btn--previous"><span class="project__main__btn__arrow">&larr;</span>Previous</a>
+      <a href="infinitystones.html" class="project__main__btn project__main__btn--next">Next<span class="project__main__btn__arrow">&rarr;</span></a>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__info__container">
+        <h2 class="footer__copyright">&copy; 2019 CJ Summers</h2>
+        <!-- footer navigation -->
+        <ul class="footer-menu__list">
+          <li class="footer-menu__list-item">
+            <a href="index.html#about" class="footer-menu__link">About</a>
+          </li>
+          <li class="footer-menu__list-item">
+            <a href="index.html#portfolio" class="footer-menu__link">Portfolio</a>
+          </li>
+          <li class="footer-menu__list-item">
+            <a href="index.html#contact" class="footer-menu__link">Contact</a>
+          </li>
+        </ul>
+        <!-- footer social buttons -->
+        <div class="footer__social-btn">
+          <a href="https://github.com/cjsummers003" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+          <a href="https://www.linkedin.com/in/cjsummers003" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/inert.min.js"></script><!-- inert js-->
+  <script type="text/javascript" src="js/scripts.min.js"></script><!-- Custom JavaScript -->
+
+</body>
+</html>
