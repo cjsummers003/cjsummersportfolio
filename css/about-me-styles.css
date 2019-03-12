@@ -42,6 +42,10 @@ body {
   height: 200px;
   position: relative;
 }
+#boy{
+  height: 80px;
+}
+
 .about-me__header .about-me__title {
   position: absolute;
   top: 1.5em;
