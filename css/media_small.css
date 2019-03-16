@@ -62,7 +62,7 @@
             order: 1;
   }
   .about__img__container {
-    background-color: #ff789e;
+    background-color: darkblue;
     max-width: 100%;
     margin-left: 0.5em;
     margin-right: 0.5em;
@@ -95,7 +95,7 @@
     padding-bottom: 0.8em;
     font-size: 1.3em;
     font-weight: 400;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid white;
   }
   .about__text__description:last-of-type {
      font-size: 1.1em;
