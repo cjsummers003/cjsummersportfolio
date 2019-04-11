@@ -445,7 +445,7 @@ a {
 .portfolio__items-container {
   max-width: 932px;
   margin: 0 auto;
-  background-color: white;
+  background-color: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
